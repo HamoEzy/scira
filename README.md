@@ -20,15 +20,6 @@ A minimalistic AI-powered search engine that helps you find information on the i
 - **AI-powered search**: Get answers to your questions using Anthropic's Models.
 - **Web search**: Search the web using Tavily's API.
 - **URL Specific search**: Get information from a specific URL.
-- **Weather**: Get the current weather for any location using OpenWeather's API.
-- **Programming**: Run code snippets in multiple languages using E2B's API.
-- **Maps**: Get the location of any place using Google Maps API, Mapbox API, and TripAdvisor API.
-- **YouTube Search**: Search for videos on YouTube and get timestamps and transcripts [powered by Exa.AI - the Web Search API](https://exa.ai/).
-- **Academic Search**: Search for academic papers [powered by Exa.AI - the Web Search API](https://exa.ai/). 
-- **X Posts Search**: Search for posts on X.com [powered by Exa.AI - the Web Search API](https://exa.ai/).
-- **Flight Tracker**: Track flights using AviationStack's API.
-- **Trending Movies and TV Shows**: Get information about trending movies and TV shows.
-- **Movie or TV Show Search**: Get information about any movie or TV show.
 
 ## LLM used
 - [xAI's Grok](https://x.ai/grok)
@@ -50,34 +41,6 @@ A minimalistic AI-powered search engine that helps you find information on the i
 ### Deploy your own
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzaidmukaddam%2Fscira&env=XAI_API_KEY,UPSTASH_REDIS_REST_URL,UPSTASH_REDIS_REST_TOKEN,AVIATION_STACK_API_KEY,SANDBOX_TEMPLATE_ID,TMDB_API_KEY,NEXT_PUBLIC_POSTHOG_KEY,NEXT_PUBLIC_POSTHOG_HOST,YT_ENDPOINT,EXA_API_KEY,TRIPADVISOR_API_KEY,BLOB_READ_WRITE_TOKEN,MAPBOX_ACCESS_TOKEN,NEXT_PUBLIC_MAPBOX_TOKEN,FIRECRAWL_API_KEY,TAVILY_API_KEY,OPENWEATHER_API_KEY,E2B_API_KEY,GOOGLE_MAPS_API_KEY,NEXT_PUBLIC_GOOGLE_MAPS_API_KEY&envDescription=All%20environment%20variables%20needed%20for%20application)
-
-## Set Scira as your default search engine
-
-1. **Open the Chrome browser settings**:
-   - Click on the three vertical dots in the upper right corner of the browser.
-   - Select "Settings" from the dropdown menu.
-
-2. **Go to the search engine settings**:
-   - In the left sidebar, click on "Search engine."
-   - Then select "Manage search engines and site search."
-
-3. **Add a new search engine**:
-   - Click on "Add" next to "Site search."
-
-4. **Set the search engine name**:
-   - Enter `Scira` in the "Search engine" field.
-
-5. **Set the search engine URL**:
-   - Enter `https://scira.how?q=%s` in the "URL with %s in place of query" field.
-
-6. **Set the search engine shortcut**:
-   - Enter `sh` in the "Shortcut" field.
-
-7. **Set Default**:
-   - Click on the three dots next to the search engine you just added.
-   - Select "Make default" from the dropdown menu.
-
-After completing these steps, you should be able to use Scira as your default search engine in Chrome.
 
 ### Local development
 
